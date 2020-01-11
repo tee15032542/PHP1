@@ -1,7 +1,11 @@
 <?php
-
 for($i=0;$i<5;$i++){
-  echo"HI";
-  echo"\n";
+  for($j=$i;$j<4;$j++){
+    echo"&nbsp","&nbsp","&nbsp","&nbsp";
+  }
+  for($j=$i;$j>=0;$j--){
+    echo"O","&nbsp";
+  }
+  echo"<br>";
 }
 ?>
